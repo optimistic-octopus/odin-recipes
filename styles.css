@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+#index_body {
+  background-image: url("./images/index.jpg");
+}
+
+#kung_pao_body {
+  background-image: url("./images/kung_pao.jpg");
+}
+
+#lasagna_body {
+  background-image: url("./images/Simply-Best-Homemade-Lasagna-LEAD-4-7cb54b4d2b264bb3a2b4fbdb85e90d22.jpg");
+}
+
+#straw_body {
+  background-image: url("./images/alyerika-strawberry-cake-10166400_1920.jpg");
+}
+
+main {
+  margin: 5rem 0;
+  background-color: #333;
+  padding: 2rem;
+  border-radius: 2rem;
+  color: antiquewhite;
+  opacity: 0.7;
+  width: 60vw;
+}
+
+#index_main {
+  height: 40vh;
+  width: 40vw;
+}
+
+#kung_pao_main {
+  height: 100vh;
+  width: 60vw;
+}
+
+#lasagna_main {
+  height: 107vh;
+  width: 80vw;
+}
+
+a {
+  color: rgb(229, 140, 24);
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  display: block;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+img {
+  width: 10rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.container {
+  display: flex;
+  gap: 2rem;
+}
+
+.ingredients {
+  width: 35%;
+}
+
+.steps {
+  width: 65%;
+}
+
+.img_container {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
